@@ -11,7 +11,7 @@
     text-decoration: none;
     color: gold;
     font-weight: bold;
-    font-size: 24px;
+    padding-bottom: 4px;
 }
 @media (min-width: 500px) {
     .SideBar {
@@ -55,7 +55,7 @@
 @media (max-width: 500px) {
     .SideBar {
         position: fixed;
-        width: 160px;
+        width: 60%;
         max-width: 70%;
         height: 100%;
         left: 0;
@@ -84,17 +84,20 @@
     color: #fbc926;
     font-size: 35px;
     font-weight: bold;
-    height: 30%;
+    height: 100%;
     width: 100%;
 }
 
 .socialMediaIcons {
+    width: 150px;
+    height: 100px;
     padding-top: 10px;
-    padding-left: 20px;
+    /* padding-left: 10px; */
     display: flex;
     flex-direction: row;
 }
-.Icon {
-    height: 30px;
+.SideBar img{
+    width: 20px;
+    height: 20px;
     padding: 10px;
 }

@@ -74,13 +74,12 @@
         height: 100%;
         overflow: hidden;
     }
-    .d5{   
-        padding:20px;
+    .d5{
+        left: 0;
+        padding:10px;
         height: 100%;
         width:310px;
         position: fixed;
         top: 70%;
-        /* background: rgb(204, 204, 204); Fallback for older browsers without RGBA-support */
-        /* background: rgba(204, 204, 204, 0.5); */
     }
 }
