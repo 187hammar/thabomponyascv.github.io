@@ -12,6 +12,7 @@ class ProgrammingSkills extends Component {
                 <div className={"Skill"}>
                     <div>
                         <a>Java</a>
+                        <p>Structured Programming</p>
                         <p>Object Orient Programming</p>
                         <p>Data Structures and Algorithms</p>
                     </div>
@@ -41,6 +42,7 @@ class ProgrammingSkills extends Component {
                 <div className={"Skill"}>
                     <div>
                         <a>C#</a>
+                        <p>Structured Programming</p>
                         <p>Windows Forms Development</p>
                         <p>Apps and Advanced User Interface Programing</p>
                     </div>

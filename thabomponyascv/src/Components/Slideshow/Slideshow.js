@@ -70,9 +70,11 @@ export default function Slideshow({images=[], interval=3000}){
                 </section>
                 <section className={"slideCurrent"}>
                     <div style={currentSlideStyle} className={"slideThumnail"}>
-                        <div className={"caption"}></div></div>
-                    <div className={"caption"}>
-                </div>
+                        
+                    </div>
+                </section>
+                <section>
+                    <img url={images[currentSlide]}/>
                 </section>
                 <section className={"slideNext"}>
                     <div style={nextSlideStyle} className={"slideThumnail"}></div>

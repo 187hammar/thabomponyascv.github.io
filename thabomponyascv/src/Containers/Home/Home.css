@@ -19,19 +19,18 @@
 .HomeBackground{
     margin: 0;
     top: 0;
-    background-color: black;
 }
 .d5{
       position: absolute;
       overflow: hidden;
       background-size: 2700px 1500px;
     
-      height: 30vh;
+      height: 60vh;
       width: 25vw;
       left: 10vw;
       background-position: -70vw 50%;
     
-      top: 20%;
+      top: 35%;
       transform: translateY(-50%);
       z-index: 1;
       animation: dd4 10s 2;
@@ -52,6 +51,10 @@
         height: 100%;
         overflow: hidden;
         padding-bottom: 1100px;
+    }
+    .d5{
+        left: 0;
+        top: 35vh;
     }
 }
 @media (max-width: 1000px) {

@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 .CV h1{
-    color: gold;
+    color: silver;
     font-size: 48px;
 }
 .CV a{
@@ -16,6 +16,15 @@
     padding: 20px;
     padding-top: 60px;
     text-decoration: none;
+}
+.CV img{
+    width: 100%;
+    height: 80%;
+}
+.Cover{
+    width: 100%;
+    height: 500px;
+    display: none;
 }
 .Slideshow{
     width: 100%;
@@ -40,5 +49,11 @@
         height: 100%;
         overflow: hidden;
         padding-bottom: 300px;
+    }
+    .Slideshow{
+        display: none;
+    }
+    .Cover {
+        display: block;
     }
 }

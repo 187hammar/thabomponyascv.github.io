@@ -5,6 +5,7 @@ import './HomeBackground.css';
 const homeBackground = () => {
     return (
         <div className="HomeBackground">
+            
             <div className="d1">
                 <img className="img1" src={"https://firebasestorage.googleapis.com/v0/b/memorypics-cd4a8.appspot.com/o/ThaboMponya%2FNtate_Mponya.jpeg?alt=media&token=f4ff91ca-250f-400a-9023-1cf0f4b265fc"} alt="ntate"></img>
             </div>

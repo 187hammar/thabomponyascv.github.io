@@ -24,6 +24,9 @@ const cv = () => {
                         cv1,cv2,cv3,cv4,cv5,cv6
                     ]}/>
             </div>
+            <div className={"Cover"}>
+                <img src={cv1} alt="cv cover"/>
+            </div>
         </div>
     );
 }

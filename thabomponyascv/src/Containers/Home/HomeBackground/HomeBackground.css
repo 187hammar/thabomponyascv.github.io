@@ -12,7 +12,7 @@
 }
 .img21{
     height: 50vh;
-    width: 25vw;
+    width: 35vw;
 }
 .img4{
     height: 80vh;
@@ -34,7 +34,7 @@
     background-position: 0 50%;
 
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
     z-index: 2;
     animation: dd1 10s 1, dd12 10s 1;
@@ -47,39 +47,17 @@
     width: 25vw;
     background-position: -10vw 50%;
     left: 10vw;
-    top: 25%;
-
-    /* background: antiquewhite;
-  
-    background-position: -10vw 50%;
-    left: 10vw;
-  
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
-    animation: dd2 10s 2;
-    animation-delay: 4s; */
+    top: 40%;
 }
 .d21 {
     display: none;
     position: absolute;
     opacity: 50%;
     height: 50vh;
-    width: 25vw;
+    width: 40vw;
     background-position: -10vw 50%;
     left: 10vw;
     top: 25%;
-/*     
-    background: antiquewhite;
-  
-    background-position: -10vw 50%;
-    left: 10vw;
-  
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
-    animation: dd2 10s 2;
-    animation-delay: 4s; */
 }
 .d3 {
     position: absolute;
@@ -90,12 +68,6 @@
     left: 35vw;
     top: 10%;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
-/*   
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 3;
-    animation: dd3 10s 2;
-    animation-delay: 4s; */
 }
 .d31 {
     display: none;
@@ -116,11 +88,6 @@
     width: 25vw;
     left: 70vw;
     top: 10%;
-/*     
-    transform: translateY(-50%);
-    z-index: 1;
-    animation: dd4 10s 2;
-    animation-delay: 4s; */
 }
 @keyframes dd1 {
     0% {
@@ -161,12 +128,15 @@
 }
 
 @media (max-width: 1500px) {
-    .d4{
-        display: none;
+    .d1{
+        top: 60%;
     }
     .d3{
-        left: 30vw;
+        left: 35vw;
         opacity: 35%;
+    }
+    .d4{
+        display: none;
     }
 }
 @media (max-width: 1300px) {
@@ -179,9 +149,11 @@
     .d21{
         display: inline;
         left: 0;
+        top: 50%;
     }
     .d3{
-        left: 25vw;
+        left: 30vw;
+        top: 0;
     }
 }
 @media (max-width: 1000px) {
@@ -206,6 +178,6 @@
         top: 0;
         left: 0;
         display: inline;
-        opacity: 30%;
+        opacity: 20%;
     }
 }
