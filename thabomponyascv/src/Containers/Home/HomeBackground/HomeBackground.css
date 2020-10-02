@@ -200,6 +200,7 @@
 }
 @media (max-width: 500px) {
     .d31{
+        position: fixed;
         top: 370px;
         left: 0;
         display: inline;
