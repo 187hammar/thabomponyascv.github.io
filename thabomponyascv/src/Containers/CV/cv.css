@@ -26,7 +26,7 @@
     height: 500px;
     display: none;
 }
-.Slideshow{
+.SlideshowSec{
     width: 100%;
 }
 .Head{
@@ -50,7 +50,7 @@
         overflow: hidden;
         padding-bottom: 300px;
     }
-    .Slideshow{
+    .SlideshowSec{
         display: none;
     }
     .Cover {

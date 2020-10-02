@@ -18,7 +18,7 @@ const Home = () => {
                 <p>From the beginning of the South African national lockdown, I earned 2 certificates (Flutter & Dart - The complete guide [2020 edition] and Ethical Hacking from Scratch),
                      and currently working on finishing the remaining 2 (React - The Complete Guide (incl Hooks, React Router, Redux) and React & Django Full Stack: web app, backend API, mobile apps). 
                     I did all this before I got called back to the university.
-                    I am a very quick learner and am highly interested in all types software Development, incluiding mobile app and website development.
+                    I am a very quick learner and am highly interested in all types software Development, including mobile app and website development.
                 </p>
             </div>
             </div>

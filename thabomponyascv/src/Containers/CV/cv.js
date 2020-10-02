@@ -17,7 +17,7 @@ const cv = () => {
                 <h1 >CV</h1>
                 <a href={theCv}>Download</a>
             </div>
-            <div className={"Slideshow"}>
+            <div className={"SlideshowSec"}>
                 <Slideshow
                     interval={30000}
                     images={[
