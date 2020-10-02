@@ -42,11 +42,14 @@
 }
 .d2 {
     position: absolute;
-    background-size: 2700px 1500px;
     opacity: 50%;
     height: 50vh;
     width: 25vw;
-    background: antiquewhite;
+    background-position: -10vw 50%;
+    left: 10vw;
+    top: 25%;
+
+    /* background: antiquewhite;
   
     background-position: -10vw 50%;
     left: 10vw;
@@ -55,7 +58,7 @@
     transform: translateY(-50%);
     z-index: 1;
     animation: dd2 10s 2;
-    animation-delay: 4s;
+    animation-delay: 4s; */
 }
 .d21 {
     display: none;
@@ -63,6 +66,10 @@
     opacity: 50%;
     height: 50vh;
     width: 25vw;
+    background-position: -10vw 50%;
+    left: 10vw;
+    top: 25%;
+/*     
     background: antiquewhite;
   
     background-position: -10vw 50%;
@@ -72,56 +79,48 @@
     transform: translateY(-50%);
     z-index: 1;
     animation: dd2 10s 2;
-    animation-delay: 4s;
+    animation-delay: 4s; */
 }
 .d3 {
     position: absolute;
     overflow: hidden;
     opacity: 60%;
-  
     height: 100vh;
     width: 100%;
     left: 35vw;
+    top: 10%;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
-  
+/*   
     top: 50%;
     transform: translateY(-50%);
     z-index: 3;
     animation: dd3 10s 2;
-    animation-delay: 4s;
+    animation-delay: 4s; */
 }
 .d31 {
     display: none;
     position: absolute;
     overflow: hidden;
     opacity: 60%;
-  
     height: 100vh;
     width: 100%;
     left: 35vw;
+    top: 10%;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
-  
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 3;
-    animation: dd3 10s 2;
-    animation-delay: 4s;
 }
 .d4 {
     position: absolute;
     overflow: hidden;
     opacity: 50%;
-    background: burlywood;
-  
     height: 80vh;
     width: 25vw;
     left: 70vw;
-  
-    top: 50%;
+    top: 10%;
+/*     
     transform: translateY(-50%);
     z-index: 1;
     animation: dd4 10s 2;
-    animation-delay: 4s;
+    animation-delay: 4s; */
 }
 @keyframes dd1 {
     0% {
@@ -196,7 +195,7 @@
         display: none;
     }
     .d31{
-        top: 370px;
+        top: 0;
         left: 0;
         display: inline;
         opacity: 30%;
@@ -204,6 +203,9 @@
 }
 @media (max-width: 500px) {
     .d31{
-        display: none;
+        top: 0;
+        left: 0;
+        display: inline;
+        opacity: 30%;
     }
 }
