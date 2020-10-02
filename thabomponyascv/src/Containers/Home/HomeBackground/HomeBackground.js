@@ -4,9 +4,9 @@ import './HomeBackground.css';
 import Thabo from '../../../Assets/Thabo.jpg';
 import Thabo2 from '../../../Assets/Thabo2.jpg';
 import ntate from '../../../Assets/Ntate_Mponya.jpeg';
-import Thabo3 from '../../../Assets/Thabo3.jpg';
-import Thabo4 from '../../../Assets/Thabo4.jpg';
-import tnK from '../../../Assets/Thabo5.jpg';
+import Thabo3 from '../../../Assets/Thabo3x.jpg';
+import Thabo4 from '../../../Assets/Thabo4x.jpg';
+import tnK from '../../../Assets/Thabo5x.jpg';
 
 const homeBackground = () => {
     return (
