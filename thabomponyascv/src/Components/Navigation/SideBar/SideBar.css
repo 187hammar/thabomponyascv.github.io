@@ -71,9 +71,12 @@
     color: silver;
 }
 .NavSection{
+    height: 100%;
     width: 100%;
     position: relative;
     margin: 0;
+    bottom: 0;
+    padding-bottom: 6em;
 }
 .Profile {
     text-align: center;
