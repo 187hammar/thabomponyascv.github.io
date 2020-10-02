@@ -42,6 +42,7 @@
 }
 .d2 {
     position: absolute;
+    background-size: 2700px 1500px;
     opacity: 50%;
     height: 50vh;
     width: 25vw;
