@@ -1,0 +1,44 @@
+.CV{
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    float: right;
+    border-left: 2px solid blue;
+    overflow: hidden;
+}
+.CV h1{
+    color: gold;
+    font-size: 48px;
+}
+.CV a{
+    color: gold;
+    padding: 20px;
+    padding-top: 60px;
+    text-decoration: none;
+}
+.Slideshow{
+    width: 100%;
+}
+.Head{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+@media (max-width: 1000px) {
+    .CV{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding-bottom: 200px;
+    }
+}
+@media (max-width: 500px) {
+    .CV{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding-bottom: 300px;
+    }
+}

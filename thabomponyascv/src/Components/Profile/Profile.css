@@ -1,0 +1,47 @@
+.Profile {
+    background-color: black;
+    padding: 8px;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Profile img {
+    height: 80%;
+    width: 80%;
+    border-radius: 50px;
+}
+@media (max-width: 1500px) {
+    .Profile img{
+        height: 60%;
+    }
+    .Profile h1{
+        width: 60%;
+    }
+}
+@media (max-width: 1300px) {
+    .Profile img{
+        height: 40%;
+    }
+    .Profile h1{
+        width: 40%;
+    }
+}
+@media (max-width: 1000px) {
+    .Profile img{
+        height: 20%;
+    }
+    .Profile h1{
+        width: 20%;
+    }
+}
+.Profile h1{
+    width: 80%;
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+    font-size: 18px;
+}
+.Profile h1:hover {
+    color: silver;
+}
