@@ -4,10 +4,11 @@ import './ProgrammingSkills.css';
 import ProgressBar from '../../Components/ProgressBar/ProgressBar';
 
 class ProgrammingSkills extends Component {
-  render() {
-    return (
+    render() {
+        return (
         <div className={"ProgrammingSkills"}>
             <h1>Programming Skills</h1>
+            <button onClick={this.skills}>Skills</button>
             <section className={"Skills"}>
                 <div className={"Skill"}>
                     <div>
