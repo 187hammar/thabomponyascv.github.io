@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import classes from './ProgrammingSkills.css';
+import './ProgrammingSkills.css';
 import ProgressBar from '../../Components/ProgressBar/ProgressBar';
 
 class ProgrammingSkills extends Component {

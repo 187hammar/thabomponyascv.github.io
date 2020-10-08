@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import classes from './Services.css';
+import './Services.css';
 import app from '../../Assets/app.jpg';
 import web from '../../Assets/web.jpg';
 import soft from '../../Assets/soft.jpg';
