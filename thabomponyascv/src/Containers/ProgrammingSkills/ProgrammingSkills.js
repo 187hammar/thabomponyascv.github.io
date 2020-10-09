@@ -8,7 +8,6 @@ class ProgrammingSkills extends Component {
         return (
         <div className={"ProgrammingSkills"}>
             <h1>Programming Skills</h1>
-            <button onClick={this.skills}>Skills</button>
             <section className={"Skills"}>
                 <div className={"Skill"}>
                     <div>
